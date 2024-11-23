@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:dice_app/gradient_container.dart';
 
 void main() {
   runApp(
     const MaterialApp(
-      home: Text('Hello!'),
+      home: Scaffold(
+        body: GradientContainer(),
+      ),
     ),
   );
 }
